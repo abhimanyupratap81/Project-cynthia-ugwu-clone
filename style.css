@@ -1,3 +1,8 @@
+@font-face {
+    font-family: General Sans;
+    src: url(./GeneralSans-Medium.woff2);
+}
+
 *{
     padding: 0;
     margin: 0;
