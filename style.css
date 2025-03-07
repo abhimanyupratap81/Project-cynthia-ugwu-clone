@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "General Sans";
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    background-color: black;
+}
+
+#minicircle{
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 99999;
+    border-radius: 50%;
+}
+
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+}
+
+.bounding .boundingelem{
+    transform: translateY(100%);
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background-color: black;
+    position: relative;
+}
+
+#nav{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    color: #fff;
+    display: flex;
+    font-weight: 800;
+    font-size: 17px;
+}
+
+#nav a{
+    font-family: "General Sans Medium";
+    text-decoration: none;
+    color: #fff;
+}
+
+#heading{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#heading h1{
+    font-family: "General Sans Medium";
+    font-size: 9vw;
+    line-height: 1;
+    opacity: 0.6;
+}
+
+#dec{
+    margin-left: 134px;
+}
+
+.bltext{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.bltext h6{
+    text-align: right;
+    font-size: 16px;
+}
+
+#sheadings{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 25vh;
+    margin-right: 20px;
+}
+
+#sheadings h6{
+    padding-right: 2.5vw;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    text-align: right;
+}
+
+#footer1{
+    padding: 0.2vw;
+    position: absolute;
+    width: 95%;
+    margin-right: 2.1vw;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer1 a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#footer1 #iconset{
+    display: flex;
+}
+
+#iconset .ic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #888;
+}
+
+.second{
+    color: #fff;
+    height: 200vh;
+    background-color: black;
+    padding-top: 130px;
+    overflow: hidden;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 2vw 3vw;
+    border-top: 1px solid #888;
+    padding: 2vw 1vw;
+    padding-right: 0;
+}
+
+.elem h1{
+    text-transform: uppercase;
+    font-size: 6vw;
+    opacity: .7;
+}
+
+#hw{
+    border-bottom: 1px solid #888;
+}
+
+.elem img{
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    z-index: 999;
+    opacity: 0;
+}
+
+#fir{
+    width: 11vw;
+    margin-left: 2vw;
+    border: solid #fff 1px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fir h3{
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 200;
+    opacity: .9;
+}
+
+#about{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    padding-left: 30vw;
+    padding-right: 10vw;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+#about img{
+    width: 15vw;
+}
+
+#textabout{
+    width: 30rem;
+    font-size: 20px;
+    font-family: "General Sans-Regular";
+    color: #fff;
+}
+
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .7;
+    margin-bottom: 10px;
+}
+
+#textabout p{
+    font-weight: 350;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+#textabout a{
+    padding: 12px 5px;
+    border: 1px solid #fff;
+    border-radius: 200px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#subscribe{
+    background-color: black;
+    padding: 60px 40px;
+    padding-bottom: 7vw;
+    color: #fff;
+}
+
+#subscribe h5{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: .7;
+}
+
+#subscribe h3{
+    text-transform: uppercase;
+    font-weight: 4400;
+    font-size: 17px;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+footer #footerleft{
+    display: flex;
+    gap: 60px;
+}
+
+footer #footerleft h5{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+footer #footerright{
+    display: flex;
+    gap: 60px;
+}
+
+footer #footerright a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+}
+
+  
